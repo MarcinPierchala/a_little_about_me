@@ -6,12 +6,11 @@ body {
     display: flex;
     flex-direction: column;
 }
-
+/*
 .menu_container {
-    position:absolute;
-    top:50px;
-    right: 100px;
-}
+    position:
+    
+}*/
 
 ol {
     list-style-type:none;
