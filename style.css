@@ -32,7 +32,7 @@ ol {
 
   ol > li {
     float:left;
-    width:max-content;
+    width:5%;
     margin-left:50px;
     background-color:#FDD700;
     height:2em;
