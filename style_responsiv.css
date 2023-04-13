@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(41, 146, 106);
 }
 
 .topnav {
@@ -52,4 +53,28 @@ body {
     display: block;
     text-align: left;
   }
+}
+
+.firstrate_header{
+  padding-left: 16px;
+}
+.secondrate_header{
+  padding-left:32px;
+}
+
+.thirdrate_header{
+  padding-left:48px;
+}
+
+.centered_contacts{
+  text-align: center;
+  margin-top: 20%;
+}
+footer {
+  position: fixed;
+  padding: 10px 10px 0px 10px;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  
 }
