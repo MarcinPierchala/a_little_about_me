@@ -66,6 +66,10 @@ body {
   padding-left:48px;
 }
 
+.descriptive_part{
+  padding-left: 32px;
+}
+
 .centered_contacts{
   text-align: center;
   margin-top: 20%;
