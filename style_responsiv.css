@@ -74,6 +74,19 @@ body {
   text-align: center;
   margin-top: 20%;
 }
+.whoami{
+  position: fixed;
+  bottom: 10%;
+  right: 10%;
+}
+.whoami_image{
+  width: 300px;
+  height: 300px;
+}
+.little_link{
+  font-size: 11px;
+  text-align: center;  
+}
 footer {
   position: fixed;
   padding: 10px 10px 0px 10px;
