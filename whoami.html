@@ -6,57 +6,65 @@
 <link rel="stylesheet" href="style_responsiv.css">
 </head>
 <body>
-
-    <div class="topnav" id="myTopnav">
-        <a href="index.html">home</a>
-        <a href="whoami.html" class="active">whoami</a>
-        <a href="projects.html">projects</a>
-        <a href="someLinks.html">links</a>
-        <a href="contactMe.html">contact</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
+  <div class="topnav" id="myTopnav">
+    <a href="index.html">home</a>
+    <a href="whoami.html" class="active">whoami</a>
+    <a href="projects.html">projects</a>
+    <a href="someLinks.html">links</a>
+    <a href="contactMe.html">contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  <div style="padding-left:16px">
+    <h1 class="firstrate_header">About me</h1>
+    <div class="descriptive_part">
+      <p></p>
+      <p id = "age"></p>
+      <p>A few years ago, I decided to change my job specialization. Since I have always been interested in computer science and mechatronics, I decided to become a computer programmer.</p>
+      <p>I started learning programming and started studying industrial computer science, which I graduated with honors.</p>
+      
       </div>
-
-<div style="padding-left:16px">
-  <h1 class="firstrate_header">About me</h1>
-  <div class="descriptive_part">
-    <p></p>
-    <p id = "age"></p>
-    <p>A few years ago, I decided to change my job specialization. Since I have always been interested in computer science and mechatronics, I decided to become a computer programmer.</p>
-    <p>I started learning programming and started studying industrial computer science, which I graduated with honors.</p>
-  </div>
-  
-</div>
-<div class="whoami">
-  <div class="column" id="c1"></div>
-  <div class="column" id="c2"></div>
-  <div class="column" id="c3"><img class="whoami_image" src="whoami.png" alt="who_i_am">
-    <p class="little_link"> <a href="https://en.wikipedia.org/wiki/Whoami">https://en.wikipedia.org/wiki/Whoami</a></p>
-  </div>
-  
-  
-</div>
-
-<footer>
-    <p>My Pages 2023.01</p>
-  </footer>
-  
-  <script>
-  function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-      x.className += " responsive";
-    } else {
-      x.className = "topnav";
-    }
-  }
-  window.onload = function countAge(){
-    age = (new Date().getFullYear() - 1982);
-    document.getElementById('age').innerHTML = "My name is Marcin Pierchała. I am " + age + " years old.";
-  }
-  
-  </script>
-  
+    </div>
+    <div class="whoami">
+      <div class="column" id="c1"></div>
+      <div class="column" id="c2"></div>
+      <div class="column" id="c3"><img class="whoami_image" src="whoami.png" alt="who_i_am">
+        <p class="little_link"> <a href="https://en.wikipedia.org/wiki/Whoami">https://en.wikipedia.org/wiki/Whoami</a></p>
+      </div>  
+    </div>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      window.onload = function countAge(){
+        age = (new Date().getFullYear() - 1982);
+        document.getElementById('age').innerHTML = "My name is Marcin Pierchała. I am " + age + " years old.";
+      }
+    </script>
+     <footer>
+      <p>My Pages 2023.01</p>
+    </footer>
   </body>
-  </html>
+</html>
+    
+
+    
+
+
+  
+
+
+
+
+  
+  
+  
+  
+  
+  
