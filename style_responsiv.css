@@ -96,6 +96,12 @@ body {
   font-size: 11px;
   text-align: center;  
 }
+@media only screen and (max-width: 1900px){
+  .project_pictures{
+    width: 90%;
+    margin-left: 5%;
+  }
+}
 /*.space_maker{
   position:absolute;
   height: 90%;
